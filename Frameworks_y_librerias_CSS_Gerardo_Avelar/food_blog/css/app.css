@@ -1,0 +1,52 @@
+body {
+  background-image: url(../img/bg.jpeg);
+  background-position: center;
+  background-size: 100%;
+  color: white;
+}
+
+.main-content {
+  padding-top: 2%;
+  background-color: rgba(255, 255, 255, 0.5)
+}
+
+.list-group {
+  margin-bottom: 1rem;
+  border: 1px solid #e6e6e6;
+  border-radius: 0;
+  background: #fefefe;
+  box-shadow: none;
+  overflow: hidden;
+  color: #0a0a0a;
+}
+
+.list-group > :last-child {
+  margin-bottom: 0;
+}
+
+.list-group-item {
+  padding: 1rem;
+  border-bottom: 1px solid #e6e6e6;
+}
+
+.list-group-item > :last-child {
+  margin-bottom: 0;
+  border-bottom: none;
+}
+
+.list-group-item:hover, .list-group-item:focus {
+  background-color: #e6e6e6;
+}
+
+
+
+
+
+
+
+
+
+
+.slogan {
+  text-align: right;
+}
